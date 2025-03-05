@@ -13,9 +13,6 @@ abstract public class Mamifero {
 
     abstract public String comunicarse();
 
-    public Mamifero() {
-    }
-
     public Mamifero(String habitat, String nombreCientifico, float altura, float largo, float peso) {
         this.habitat = habitat;
         this.nombreCientifico = nombreCientifico;
